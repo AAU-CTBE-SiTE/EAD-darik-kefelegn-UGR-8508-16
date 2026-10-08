@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7c6c45-c545-446d-bf68-ca6811567381" name="Changes" comment="" />
+    <list default="true" id="ed7c6c45-c545-446d-bf68-ca6811567381" name="Changes" comment="Completed JDBC MySQL connection lab assignment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jdbc_connection" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -24,6 +27,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/jdbc_connection/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -59,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1791457033547</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed JDBC MySQL connection lab assignment.">
+      <option name="closed" value="true" />
+      <created>1791462088379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791462088379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed JDBC MySQL connection lab assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed JDBC MySQL connection lab assignment." />
   </component>
 </project>
