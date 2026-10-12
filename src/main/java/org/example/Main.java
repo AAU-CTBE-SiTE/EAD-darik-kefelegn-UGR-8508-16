@@ -46,8 +46,8 @@ public class Main {
                             "ON DUPLICATE KEY UPDATE firstname=VALUES(firstname)");
 
             insertSingle.setInt(1, 1);
-            insertSingle.setString(2, "John");
-            insertSingle.setString(3, "Doe");
+            insertSingle.setString(2, "Abebe");
+            insertSingle.setString(3, "Belete");
             insertSingle.setInt(4, 90);
             insertSingle.executeUpdate();
 
