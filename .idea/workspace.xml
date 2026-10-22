@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7c6c45-c545-446d-bf68-ca6811567381" name="Changes" comment="Completed JDBC MySQL connection lab assignment.">
-      <change afterPath="$PROJECT_DIR$/../jdbc_connection/README.md" afterDir="false" />
+    <list default="true" id="ed7c6c45-c545-446d-bf68-ca6811567381" name="Changes" comment="feat(lab1): Add project README and configure JDBC MySQL database connection operations">
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/JPALab(Lab 2)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/JPALab(Lab 2)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/JPALab(Lab 2)/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/JPALab(Lab 2)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/src/main/java/com/craft/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/src/main/java/com/craft/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_connection/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc_connection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_connection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc_connection/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_connection/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc_connection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_connection/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../jdbc_connection" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jdbc_connection" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -25,7 +43,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/AAU-CTBE-SiTE/EAD-darik-kefelegn-UGR-8508-16",
+    "url": "https://github.com/AAU-CTBE-SiTE/EAD-darik-kefelegn-UGR-8508-16.git",
     "accountId": "3130645b-e0bf-4e0a-9828-9ffb8132ebfb"
   }
 }]]></component>
@@ -39,17 +57,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Lab-2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/jdbc_connection/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -62,7 +83,20 @@
       <recent name="C:\Users\pc\IdeaProjects\jdbc_connection" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.craft.App" />
+      <module name="jdbc_connection." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="jdbc_connection." />
@@ -78,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -114,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791462979413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(lab1): Add project README and configure JDBC MySQL database connection operations">
+      <option name="closed" value="true" />
+      <created>1791834882359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791834882359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(lab1): Add project README and configure JDBC MySQL database connection operations">
+      <option name="closed" value="true" />
+      <created>1791835125159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791835125159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed JDBC MySQL connection lab assignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed JDBC MySQL connection lab assignment." />
+    <MESSAGE value="feat(lab1): Add project README and configure JDBC MySQL database connection operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(lab1): Add project README and configure JDBC MySQL database connection operations" />
   </component>
 </project>
