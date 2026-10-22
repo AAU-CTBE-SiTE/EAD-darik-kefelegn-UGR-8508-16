@@ -28,9 +28,10 @@ public class App {
         updateStudentName("Darik K.", 1);
         System.out.println("AFTER UPDATE: " + getStudentById(1));
 
-        // 4. DELETE: Remove student by ID (uncomment if you want to test delete)
-        // deleteStudentById(1);
-    }
+        // 4. DELETE: Remove student by ID (activated)
+        deleteStudentById(1);
+        System.out.println("Student deleted successfully!");
+    } // <--- This closing brace for main() was missing!
 
     // --- CREATE ---
     public static void createStudent(Student student) {
@@ -76,7 +77,8 @@ public class App {
         em.getTransaction().commit();
         em.close();
     }
-}
+} // <--- Closing brace for the App class
+
 
 
 
