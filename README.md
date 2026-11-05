@@ -1,4 +1,4 @@
-# Lab 1: Java Maven Starter Project & JDBC Connection
+# Lab 1 Java Maven Starter Project & JDBC Connection
 
 A foundational Java application configured with Apache Maven and MySQL JDBC connection.
 
