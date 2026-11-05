@@ -1,15 +1,12 @@
 package com.craft;
 
-import org.springframework.stereotype.Component;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.ToString;
+import lombok.NoArgsConstructor;
 
 @Data
-@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Subject {
     private String subjectName;
-
-    public Subject(String subjectName) {
-        this.subjectName = subjectName;
-    }
 }
