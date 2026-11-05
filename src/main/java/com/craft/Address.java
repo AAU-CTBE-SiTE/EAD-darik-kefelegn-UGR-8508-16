@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 import lombok.ToString;
 
-@Component("address") // Registers Address as a bean
+@Component("address")
 @Data
 @ToString
 public class Address {
