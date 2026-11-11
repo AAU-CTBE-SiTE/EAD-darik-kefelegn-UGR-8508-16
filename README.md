@@ -2,7 +2,7 @@
 
 A Spring Boot RESTful API application developed for the Enterprise Application Development (EAD) course lab. This project implements full **CRUD** (Create, Read, Update, Delete) operations using an in-memory `ArrayList` data structure[cite: 4, 5].
 
-## 🚀 Tech Stack & Requirements
+##  Tech Stack & Requirements
 * **Java**: 17+
 * **Framework**: Spring Boot (Maven)
 * **Starter Dependencies**: Spring Web (`spring-boot-starter-web`)
@@ -10,7 +10,7 @@ A Spring Boot RESTful API application developed for the Enterprise Application D
 
 ---
 
-## 📌 API Endpoints & Usage
+## API Endpoints & Usage
 
 Base URL: `http://localhost:8080/api/v1`[cite: 4]
 
@@ -24,7 +24,7 @@ Base URL: `http://localhost:8080/api/v1`[cite: 4]
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 ```text
 actor-management/
 │
