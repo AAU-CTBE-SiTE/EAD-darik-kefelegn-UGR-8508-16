@@ -13,13 +13,18 @@ public class Main {
         SpringApplication.run(Main.class, args);
     }
 
-    // This automatically runs when the app starts up to test the AOP aspect
     @Bean
     CommandLineRunner run(Calculator calculator) {
         return args -> {
-            System.out.println("\n--- Calling calculator.add() ---");
-            int result = calculator.add(10, 20);
-            System.out.println("Result is: " + result);
+            System.out.println("\n--- Testing normal execution ---");
+            calculator.add(10, 20);
+
+            System.out.println("\n--- Testing exception execution ---");
+            try {
+                calculator.divide(10, 0);
+            } catch (Exception e) {
+                // Handled
+            }
         };
     }
 }
